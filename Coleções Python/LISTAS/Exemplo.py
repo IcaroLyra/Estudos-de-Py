@@ -43,3 +43,12 @@ print(lista1)
 #Podemos facilmente contar o número de ocorrências de um valor em uma lista
 print(lista1.count(1))
 print(lista5.count('e'))
+
+"""
+Para adicionar elementos em listas, utilizamos a função append
+
+OBS: Com append, nós so conseguimos adicionar 1 elemento por vez
+"""
+print(lista1)
+lista1.append(42)
+print(lista1)
