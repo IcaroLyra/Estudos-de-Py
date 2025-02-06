@@ -1,35 +1,32 @@
-"""
-Mapas -> Conhecidos em Python como Dicionários
+# Mapas em Python (Dicionários)
 
-Dicionários em Python são representados por chaves {}
+# Dicionários são estruturas que armazenam pares chave:valor
+# Representados por chaves {}
 
-# Iterar sobre dicionários
+# Exemplo de dicionário:
+receita = {"jan": 100, "fev": 250, "mar": 400}
+
+# Iterando sobre dicionários
+for chave in receita:
+    print(chave)  # Exibe apenas as chaves
 
 for chave in receita:
-    print(chave)
+    print(receita[chave])  # Exibe os valores correspondentes
 
 for chave in receita:
-    print(receita[chave])
+    print(f'Em {chave} recebi R$ {receita[chave]}')  # Exibe chave e valor formatados
 
-for chave in receita:
-    print(f'Em {chave} recebi R$ {receita[chave]}')
-
-# Acessando as chaves
+# Acessando as chaves do dicionário
 print(receita.keys())
 
 for chave in receita.keys():
     print(receita[chave])
 
-# Acessando os valores
-
+# Acessando os valores do dicionário
 print(receita.values())
 
 for valor in receita.values():
-  print(valor)
+    print(valor)
 
-"""
-receita = {'jan': 100, 'fev': 250, 'mar': 400}
-
+# Exibindo o dicionário completo
 print(receita)
-
-
